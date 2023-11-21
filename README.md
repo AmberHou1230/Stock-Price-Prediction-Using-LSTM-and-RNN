@@ -42,26 +42,23 @@ trading volume for each trading day
 * Libraries: keras, tensorflow, statsmodels, numpy, pandas, yfinance, pandas datareader, pandas_ta
 
 ## Project Walkthrough
-
 * Neural Networks Basics:
   - Review the basics of neural networks to understand their structure and functionality.
   - Building and Training Neural Networks with Keras on an Example Dataset
 * Loading Time Series Data:
   - Obtain the time series data for stock prices from yahoo finance.
-● Data Transformations:
-○ Perform feature scaling or normalization to bring data into a consistent
-range.
-○ Overlapping window creation for training.
-● Recurrent Neural Networks:
-○ Model Building and Training
-○ Sequence Generation and Evaluation
-● LSTMs:
-○ Model Building and Training
-○ Sequence Generation and Evaluation
-● Multivariate Input and LSTMs
-○ Creating Technical Indicators
-○ Creating Labels
-○ Perform feature scaling or normalization to bring data into a consistent
-range.
-○ Model Building and Training
-○ Evaluation
+* Data Transformations:
+- Perform feature scaling or normalization to bring data into a consistent range.
+- Overlapping window creation for training.
+* Recurrent Neural Networks:
+  - Model Building and Training
+  - Sequence Generation and Evaluation
+* LSTMs:
+  - Model Building and Training
+  - Sequence Generation and Evaluation
+* Multivariate Input and LSTMs
+  - Creating Technical Indicators
+  - Creating Labels
+  - Perform feature scaling or normalization to bring data into a consistent range.
+  - Model Building and Training
+  - Evaluation
