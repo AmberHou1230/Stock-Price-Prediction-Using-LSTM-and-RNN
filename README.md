@@ -62,3 +62,40 @@ trading volume for each trading day
   - Perform feature scaling or normalization to bring data into a consistent range.
   - Model Building and Training
   - Evaluation
+ 
+## Project Takeaways 
+1. Gain a solid understand of the basics of neural networks to understand their structure and
+functionality.
+2. Learn how to load and preprocess time series data for stock prices, ensuring
+data quality and consistency.
+3. Frame stock price prediction as a time series forecasting problem, considering
+the temporal order of the data and splitting it into training and testing sets.
+4. Learn the principles and architecture of recurrent neural networks (RNNs).
+5. Understand how RNNs handle sequential data and capture temporal
+dependencies.
+6. Evaluation Metrics for Model Performance.
+7. Dive into long short-term memory (LSTM) networks, a specialized type of RNN.
+8. Understand the advantages of LSTMs in capturing long-term dependencies and mitigating the vanishing gradient problem.
+9. Learn how to incorporate additional features or factors that may influence stock prices such as the Relative Strength Index (RSI) and Exponential Moving Average (EMA) and formulate a multivariate input problem, to enhance prediction accuracy.
+10. Understand the inherent challenges and limitations of stock price prediction,
+including market volatility, unforeseen events, and the presence of noise in
+financial markets
+
+## Modular code overview
+![image](https://github.com/AmberHou1230/Stock-Price-Prediction-Using-LSTM-and-RNN/assets/116517923/2645ae0f-d39c-4709-975a-80fb0e5953fe)
+1. lib
+2. ml_pipeline
+3. engine.py
+4. output
+5. requirements.txt
+6. readme.md
+
+1. The lib folder is a reference folder and contains the original ipython notebook as
+in the lectures.
+2. The ml_pipeline folder contains all the functions put into different python files,
+which are appropriately named. The engine.py script then calls these python
+functions to run the steps in one go to train the model and print the results.
+3. The output folder contains the saved models from engine.py.
+4. The requirements.txt file has all the required libraries with respective versions.
+Kindly install the file using the command pip install -r requirements.txt
+5. All the instructions for running the code are present in readme.md file
